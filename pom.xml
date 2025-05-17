@@ -14,6 +14,14 @@
     <maven.compiler.release>17</maven.compiler.release>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>iotproject server</name>
+      <url>https://maven.pkg.github.com/adityarajydv/iotproject</url>
+    </repository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
